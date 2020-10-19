@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  font-family:Verdana;
+  color:#black;
+
+  }
+
+.heading  {
+    background-color:#d62828;
+    padding:15px;
+    text-align:center;"
+  }
+
+.menu {
+   float:left;
+   width: 20%;
+   text-align: center;
+}
+
+.menu a {
+  background-color: #003049;
+  padding:8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color:white;
+}
+
+.main {
+  float: left;
+  width:60%;
+  padding:0 20px;
+}
+
+.right {
+  background-color: #f77f00;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+/* For mobile phones: */
+.menu, .main, .right {
+  width:100%;
+  }
+}
+
+.copywrite {
+  background-color:#fcbf49;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+}
